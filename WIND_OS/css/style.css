@@ -1,0 +1,237 @@
+
+
+
+a,a:hover {
+text-decoration:none;    
+            color: white;
+        }
+         body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+       
+header {
+    height: 3em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color:rgb(0, 0, 0);
+
+}
+
+    header div {
+        height: 100%;
+        display: inline-block;
+    }
+
+#textInfo {
+    color: white;
+    font-family: arial;
+    width: 25%;
+    float: left;
+    line-height: 3em;
+}
+
+#online {
+    width: 1em;
+    background-image: url("img/usr/OIP.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+}
+
+#user {
+    margin-left: 1em;
+    width: 3em;
+    background-image: url("img/whats_new/main.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    border-radius: 20px;
+}
+
+#userName {
+    color: white;
+    font-family: arial;
+    width: 25%;
+    float: left;
+    line-height: 3em;
+    text-decoration: none;
+}
+
+#settings {
+    margin-left: 1em;
+    width: 3em;
+    background-image: url("img/settings/settings.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    text-align: right;
+    color: white;
+}
+
+#txt {
+    font-family: arial;
+    line-height: 3em;
+    float: right;
+    margin-right: 1em;
+    color: white;
+    ;
+}
+
+#programs {
+    width: 1120em;
+    position: absolute;
+    top: .5em;
+    left: 0;
+    padding: 5em;
+    z-index: 99;
+}
+
+.squareContainer {
+    vertical-align: top;
+    display: inline-block;
+    transition: 0.3s ease;
+    border-radius: 0px;
+}
+.squareContainerTower {
+    vertical-align: top;
+    display: inline-block;
+    transition: 0.3s ease;
+    border-radius: 0px;
+}
+.squareContainerLib {
+    vertical-align: top;
+    display: inline-block;
+    transition: 0.3s ease;
+    border-radius: 0px;
+}
+    .squareContainer:hover {
+        border: 3px solid rgb(0, 0, 0);
+        cursor: pointer;
+        background-color: rgb(0, 0, 0);
+    }
+    .squareContainerLib:hover {
+        border: 3px solid #333333;
+        cursor: pointer;
+        background-color: #333333;
+    }
+    .squareContainerTower:hover {
+        border: 3px solid #D0CBC7;
+        cursor: pointer;
+        background-color: #D0CBC7;
+    }
+.imgProgram {
+    height: 17em;
+    width: 17em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px;
+    transition: width 0.2s, height 0.2s;
+    viewport-fit: contain;
+}
+
+.squareContainer:hover .imgProgram {
+    width: 18em;
+    height: 18em;
+}
+
+.ProgramText {
+    color: white;
+    font-family: arial;
+    text-align: center;
+    line-height: 2.4em;
+}
+
+.ProgramTitle {
+    position: absolute;
+    color: white;
+    font-size: 1.2em;
+    font-family: Arial;
+    transform: translate(13.2em,-1.5em);
+}
+
+.ascii {
+    font-weight: bold;
+}
+
+
+.new {
+    background-image: url("img/whats_new/main.png");
+}
+
+.game60 {
+    background-image: url("img/seemore.png");
+}
+
+
+
+.game01 {
+    background-image: url("img/library/my-games-icon.png");
+    background-color:#333333;
+}
+
+.DS {
+    background-image: url("img/43985.png");
+}
+
+
+
+    #store div {
+        float: left;
+        border: 3px solid rgba(245,245,245,1);
+        width: 12em;
+        height: 12em;
+        display: inline-block;
+    }
+
+        #store div:hover {
+            transform: scale(1.1, 1.1);
+            box-shadow: 0px 5px 10px 3px rgba(45,45,45,.7);
+            transition: 0.3s ease;
+        }
+
+
+
+@keyframes drift {
+    from {
+        transform: rotate(0deg);
+    }
+
+    from {
+        transform: rotate(360deg);
+    }
+}
+
+.contain {
+    animation-delay: 4s;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #25a7d7;
+    background: -webkit-linear-gradient(#25a7d7, #2962FF);
+    background: linear-gradient(#25a7d7, #25a7d7);
+}
+

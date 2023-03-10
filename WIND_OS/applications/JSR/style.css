@@ -1,0 +1,36 @@
+div {
+  height: 200px;
+  overflow: scroll;
+  border: 1px solid #999;
+}
+.lined {
+  width: 100vmin;
+  background-color: rgb(49, 49, 49);
+  color:greenyellow;
+  border-style: none;
+  border-color: black;
+  background-color:black;
+  height: 2vmax
+}
+.run {
+  background-color:rgb(44, 44, 44);
+  color:white;
+  border-style: solid;
+  border-color:rgb(44, 44, 44);
+}
+.run:hover {
+  background-color:rgb(87, 87, 87);
+  color:white;
+  border-style: solid;
+  border-color:rgb(87, 87, 87);
+}
+.cleared {
+ 
+  
+
+  width:max-content, 100%;
+  height: 90%
+}
+body {
+  background-color:black;
+}
